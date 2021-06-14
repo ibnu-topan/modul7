@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.LENGTH_LONG).show()
         }
         alertDialog.setButton( AlertDialog.BUTTON_NEGATIVE, "No"
-
         ) { dialog, i ->
             Toast.makeText(this, "Anda memilih tombol ya",
+                Toast.LENGTH_LONG).show()
         }
         alertDialog.show()
     }
